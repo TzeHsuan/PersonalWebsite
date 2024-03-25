@@ -1,0 +1,151 @@
+body{
+    background-image: linear-gradient(#ffecd2, #fcb69f);
+    background-repeat: no-repeat;
+}
+
+/* Header */
+header{
+    max-width: 1024px;
+    background-color: #dabea7;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    padding: 15px 0;
+    margin: 0px auto;
+    font-family: 'Belleza', sans-serif;
+    font-size: 50px;
+    letter-spacing: 20px;
+}
+
+.title {
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: rgb(102, 102, 95);
+}
+
+/* Navigation Bar */
+nav {
+    max-width: 1024px;
+    min-height: 50px;
+    margin: 20px auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav1, .nav2 {
+    font-family: brightwall;
+    font-size: 35px;
+}
+
+.logo {
+    font-family: signature;
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(178, 175, 175);
+}
+/* feature1 */
+.feature1{
+    max-width: 1024px;
+    min-height: 350px;
+    background-image: url(images/pic8.jpg);
+    background-size: cover;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.teaser1{
+    background-image: url(images/project.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 300px;
+    box-shadow: 5px 5px 10px rgb(102, 102, 102);
+}
+
+.elements{
+    display: block;
+    padding-right: 30px;
+}
+
+.element1, .element2{
+    font-family: 'Michroma', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 40px 70px;
+    background-color: #dfd4c8;
+    border: #dfd4c8;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgb(102, 102, 102);
+}
+
+.element1:hover{
+    background-color: #dfd4c8a3;
+}
+
+.element2:hover{
+    background-color: #dfd4c8a3;
+}
+
+.elements a:hover{
+    color: white;
+}
+
+/* feature2 */
+.feature2{
+    margin-top: 10px;
+}
+
+/* 參考https://stackoverflow.com/questions/22433616/how-can-i-align-youtube-embedded-video-in-the-center-in-bootstrap */
+iframe {
+    display: block;
+    margin: 0 auto;
+ } 
+
+ #scrollToTopBtn {
+    display: none; /* Hide the button by default */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #777;
+}
+
+ /* footer */
+footer{
+    background-color: #fdeddf;
+    max-width: 1024px;
+    height: 55px;
+    margin: 10px auto;
+    align-items: center;
+    padding-top: 10px;
+}
+
+footer p{
+    font-family: 'Belleza', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 2px;
+}
